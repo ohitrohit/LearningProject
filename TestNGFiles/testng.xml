@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  <listener class-name="GenericUtility.ExtentReportManager"></listener>
+  </listeners>
+     <test name="RegistrationAndLoginTests">
+        <classes>
+      <class name="Regestration.FreeSSORegistrationTest"/>
+      <class name="Regestration.PaidSSORegistrationTest"/>
+      <class name="Regestration.PaidNonSSORegistrationTest"/>
+      <class name="Regestration.FreeNonSSORegistrationTest"/>
+            <!-- Add more registration test classes here -->
+       
+      <class name="Login.loginAsAdminInFreeSSOTest"/>
+      <class name="Login.loginAsAdminInPaidSSOTest"/>
+      <class name="Login.loginAsAdminInFreeNonSSOTest"/> 
+      <class name="Login.loginAsAdminInPaidNonSSOTest"/>
+            <!-- Add more login test classes here -->
+        </classes>
+    </test>
+</suite> <!-- Suite -->
