@@ -6,10 +6,10 @@
   </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Login.loginAsAdminInFreeSSOTest"/>
-      <class name="Login.loginAsAdminInPaidSSOTest"/>
-      <class name="Login.loginAsAdminInFreeNonSSOTest"/>
-      <class name="Login.loginAsAdminInPaidNonSSOTest"/>
+      <class name="LoginAsAdmin.loginAsAdminInPaidNonSSOTest"/>
+      <class name="LoginAsAdmin.loginAsAdminInPaidSSOTest"/>
+      <class name="LoginAsAdmin.loginAsAdminInFreeSSOTest"/>
+      <class name="LoginAsAdmin.loginAsAdminInFreeNonSSOTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

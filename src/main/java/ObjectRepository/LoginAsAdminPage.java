@@ -3,7 +3,7 @@ package ObjectRepository;
 import GenericUtility.PropertyFileUtility;
 import GenericUtility.TestData;
 
-public class LoginPage {
+public class LoginAsAdminPage {
 
 	 public TestData tUtil = new TestData();
 	 public PropertyFileUtility pUtil;
@@ -67,45 +67,5 @@ public class LoginPage {
 	        String paidNonSSOEmail = TestData.getEmail();
 	        System.out.println("Logging in as admin with email: " + paidNonSSOEmail);
 	    }
-	public void loginAsTenantInFreeSSO() {
-		String environment = System.getProperty("environment");
-		if(environment == null || environment.isEmpty()) {
-			environment = "dev";
-		}
-		pUtil = new PropertyFileUtility(environment);
-		String LoginAsTenantURL = pUtil.gettenantlogin_url();
-		System.out.println("LoginAsTenantURL = "+LoginAsTenantURL);
-		System.out.println("loginAsTenantInFreeSSO");
-	}
 
-	public void loginAsTenantInFreeNonSSO() {
-		String environment = System.getProperty("environment");
-		if(environment == null || environment.isEmpty()) {
-			environment = "dev";
-		}
-		pUtil = new PropertyFileUtility(environment);
-		String LoginAsTenantURL = pUtil.gettenantlogin_url();
-		System.out.println("LoginAsTenantURL = "+LoginAsTenantURL);
-		System.out.println("loginAsTenantInFreeNonSSO");
-	}
-	public void loginAsTenantInPaidSSO() {
-		String environment = System.getProperty("environment");
-		if(environment == null || environment.isEmpty()) {
-			environment = "dev";
-		}
-		pUtil = new PropertyFileUtility(environment);
-		String LoginAsTenantURL = pUtil.gettenantlogin_url();
-		System.out.println("LoginAsTenantURL = "+LoginAsTenantURL);
-		System.out.println("loginAsTenantInPaidSSO");
-	}
-	public void loginAsTenantInPaidNonSSO() {
-		String environment = System.getProperty("environment");
-		if(environment == null || environment.isEmpty()) {
-			environment = "dev";
-		}
-		pUtil = new PropertyFileUtility(environment);
-		String LoginAsTenantURL = pUtil.gettenantlogin_url();
-		System.out.println("LoginAsTenantURL = "+LoginAsTenantURL);
-		System.out.println("loginAsTenantInPaidNonSSO");
-	}
 }

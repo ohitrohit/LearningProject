@@ -8,12 +8,26 @@
     <classes>
       <class name="Regestration.FreeNonSSORegistrationTest"/>
       <class name="Regestration.FreeSSORegistrationTest"/>
-      <class name="Regestration.PaidSSORegistrationTest"/>
       <class name="Regestration.PaidNonSSORegistrationTest"/>
-      <class name="LoginAsAdmin.loginAsAdminInPaidNonSSOTest"/>
+      <class name="Regestration.PaidSSORegistrationTest"/>
+
+    
       <class name="LoginAsAdmin.loginAsAdminInPaidSSOTest"/>
       <class name="LoginAsAdmin.loginAsAdminInFreeSSOTest"/>
+      <class name="LoginAsAdmin.loginAsAdminInPaidNonSSOTest"/>
       <class name="LoginAsAdmin.loginAsAdminInFreeNonSSOTest"/>
+      
+      
+      <class name="UserManagement.AddSiteAdminInPaidNonSSO"/>
+      <class name="UserManagement.AddSiteAdminInPaidSSO"/>
+      <class name="UserManagement.AddSiteAdminInFreeNonSSO"/>
+      <class name="UserManagement.AddSiteAdminInFreeSSO"/>
+      
+      <class name="LoginAsSiteAdmin.loginAsTenantInFreeNonSSOTest"/>
+      <class name="LoginAsSiteAdmin.loginAsTenantInFreeSSOTest"/>
+      <class name="LoginAsSiteAdmin.loginAsTenantInPaidSSOTest"/>
+      <class name="LoginAsSiteAdmin.loginAsTenantInPaidNonSSOTest"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,15 +1,15 @@
-package Login;
+package LoginAsAdmin;
 
 import org.testng.annotations.Test;
 
-import ObjectRepository.LoginPage;
+import ObjectRepository.LoginAsAdminPage;
 
 public class loginAsAdminInFreeNonSSOTest {
 
 	@Test()
 	public void loginAsAdminInFreeNonSSO() {
 		
-		LoginPage lp = new LoginPage();
+		LoginAsAdminPage lp = new LoginAsAdminPage();
 		lp.loginAsAdminInFreeNonSSO();
 	}
 }
