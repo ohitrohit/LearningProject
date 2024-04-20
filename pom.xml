@@ -81,40 +81,27 @@
 
 
 	<build>
-
-		<plugins>
-
-			<plugin>
-
-				<groupId>org.apache.maven.plugins</groupId>
-
-				<artifactId>maven-surefire-plugin</artifactId>
-
-				<version>3.2.3</version>
-
-			</plugin>
-
-			<plugin>
-
-				<groupId>org.apache.maven.plugins</groupId>
-
-				<artifactId>maven-compiler-plugin</artifactId>
-
-				<version>3.12.1</version>
-
-				<configuration>
-
-					<!-- put your configurations here -->
-
-				</configuration>
-
-			</plugin>
-
-		</plugins>
-
-
-	</build>
-
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.2.3</version>
+            <configuration>
+                <suiteXmlFiles>
+                    <suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
+                </suiteXmlFiles>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.12.1</version>
+            <configuration>
+                <!-- put your compiler configurations here -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 	<dependencies>
 
