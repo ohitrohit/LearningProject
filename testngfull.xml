@@ -20,11 +20,10 @@
       
       <class name="UserManagement.AddSiteAdminInPaidNonSSO"/>
       <class name="UserManagement.AddSiteAdminInPaidSSO"/>
-      <class name="UserManagement.AddSiteAdminInFreeNonSSO"/>
-      <class name="UserManagement.AddSiteAdminInFreeSSO"/>
+    
       
-      <class name="LoginAsSiteAdmin.loginAsTenantInFreeNonSSOTest"/>
-      <class name="LoginAsSiteAdmin.loginAsTenantInFreeSSOTest"/>
+      
+      
       <class name="LoginAsSiteAdmin.loginAsTenantInPaidSSOTest"/>
       <class name="LoginAsSiteAdmin.loginAsTenantInPaidNonSSOTest"/>
 

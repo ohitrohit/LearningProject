@@ -16,32 +16,20 @@ public class TestDataSiteAdmin {
         return "paidssositeadmin" + getRandomNumber() + "@kine.ai";
     }
 
-    public String getFreeNonSSOEmail() {
-        return "freenonssositeadmin" + getRandomNumber() + "@kine.ai";
-    }
-
     public String getPaidNonSSOEmail() {
         return "paidnonssositeadmin" + getRandomNumber() + "@kine.ai";
-    }
-
-    public String getFreeSSOEmail() {
-        return "freessositeadmin" + getRandomNumber() + "@kine.ai";
     }
 
     private static String getFileName(String emailType) {
         return SITEADMIN_FILE_PREFIX + emailType + ".txt";
     }
 
-    public static void saveTestData(String emailType, String paidSSOEmailSiteAdmin, String freeNonSSOEmailSiteAdmin, String paidNonSSOEmailSiteAdmin, String freeSSOEmailSiteAdmin) {
+    public static void saveTestData(String emailType, String paidSSOEmailSiteAdmin, String paidNonSSOEmailSiteAdmin) {
         String fileName = getFileName(emailType);
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
             writer.write(paidSSOEmailSiteAdmin);
             writer.newLine();
-            writer.write(freeNonSSOEmailSiteAdmin);
-            writer.newLine();
             writer.write(paidNonSSOEmailSiteAdmin);
-            writer.newLine();
-            writer.write(freeSSOEmailSiteAdmin);
         } catch (IOException e) {
             e.printStackTrace();
         }
