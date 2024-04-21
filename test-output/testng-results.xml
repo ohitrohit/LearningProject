@@ -1,163 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="21" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-20T23:09:22 IST" name="Suite" finished-at="2024-04-20T23:09:24 IST" duration-ms="2240">
+  <suite started-at="2024-04-21T16:42:24 IST" name="Default suite" finished-at="2024-04-21T16:42:24 IST" duration-ms="70">
     <groups>
     </groups>
-    <test started-at="2024-04-20T23:09:22 IST" name="Test" finished-at="2024-04-20T23:09:24 IST" duration-ms="2240">
-      <class name="Regestration.PaidSSORegistrationTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:Regestration.PaidSSORegistrationTest@7f485fda]" started-at="2024-04-20T23:09:24 IST" name="BC_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-04-21T16:42:24 IST" name="Default test" finished-at="2024-04-21T16:42:24 IST" duration-ms="70">
+      <class name="SampleRun.Branch">
+        <test-method signature="dryRunForBatch()[pri:0, instance:SampleRun.Branch@5677323c]" started-at="2024-04-21T16:42:24 IST" name="dryRunForBatch" finished-at="2024-04-21T16:42:24 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidSSORegistrationTest@7f485fda]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method signature="paidSSOReg()[pri:0, instance:Regestration.PaidSSORegistrationTest@7f485fda]" started-at="2024-04-20T23:09:24 IST" name="paidSSOReg" finished-at="2024-04-20T23:09:24 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paidSSOReg -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidSSORegistrationTest@7f485fda]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidSSORegistrationTest@7f485fda]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-      </class> <!-- Regestration.PaidSSORegistrationTest -->
-      <class name="Regestration.FreeSSORegistrationTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:Regestration.FreeSSORegistrationTest@1349883]" started-at="2024-04-20T23:09:24 IST" name="BC_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeSSORegistrationTest@1349883]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method signature="freeSSOReg()[pri:0, instance:Regestration.FreeSSORegistrationTest@1349883]" started-at="2024-04-20T23:09:24 IST" name="freeSSOReg" finished-at="2024-04-20T23:09:24 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freeSSOReg -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeSSORegistrationTest@1349883]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeSSORegistrationTest@1349883]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-      </class> <!-- Regestration.FreeSSORegistrationTest -->
-      <class name="UserManagement.AddSiteAdminInPaidNonSSO">
-        <test-method signature="addSiteAdminPaidNonSSO()[pri:0, instance:UserManagement.AddSiteAdminInPaidNonSSO@2d901eb0]" started-at="2024-04-20T23:09:24 IST" name="addSiteAdminPaidNonSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="55" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addSiteAdminPaidNonSSO -->
-      </class> <!-- UserManagement.AddSiteAdminInPaidNonSSO -->
-      <class name="LoginAsAdmin.loginAsAdminInPaidNonSSOTest">
-        <test-method signature="loginAsAdminInPaidNonSSO()[pri:0, instance:LoginAsAdmin.loginAsAdminInPaidNonSSOTest@8519cb4]" started-at="2024-04-20T23:09:24 IST" name="loginAsAdminInPaidNonSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsAdminInPaidNonSSO -->
-      </class> <!-- LoginAsAdmin.loginAsAdminInPaidNonSSOTest -->
-      <class name="Regestration.PaidNonSSORegistrationTest">
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:Regestration.PaidNonSSORegistrationTest@4b29d1d2]" started-at="2024-04-20T23:09:24 IST" name="BC_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidNonSSORegistrationTest@4b29d1d2]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method signature="paidNonSSOReg()[pri:0, instance:Regestration.PaidNonSSORegistrationTest@4b29d1d2]" started-at="2024-04-20T23:09:24 IST" name="paidNonSSOReg" finished-at="2024-04-20T23:09:24 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paidNonSSOReg -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidNonSSORegistrationTest@4b29d1d2]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.PaidNonSSORegistrationTest@4b29d1d2]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-      </class> <!-- Regestration.PaidNonSSORegistrationTest -->
-      <class name="LoginAsAdmin.loginAsAdminInPaidSSOTest">
-        <test-method signature="loginAsAdminInPaidSSO()[pri:0, instance:LoginAsAdmin.loginAsAdminInPaidSSOTest@28261e8e]" started-at="2024-04-20T23:09:24 IST" name="loginAsAdminInPaidSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="30" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsAdminInPaidSSO -->
-      </class> <!-- LoginAsAdmin.loginAsAdminInPaidSSOTest -->
-      <class name="LoginAsAdmin.loginAsAdminInFreeSSOTest">
-        <test-method signature="loginAsAdminInFreeSSO()[pri:0, instance:LoginAsAdmin.loginAsAdminInFreeSSOTest@d737b89]" started-at="2024-04-20T23:09:24 IST" name="loginAsAdminInFreeSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsAdminInFreeSSO -->
-      </class> <!-- LoginAsAdmin.loginAsAdminInFreeSSOTest -->
-      <class name="LoginAsSiteAdmin.loginAsTenantInPaidNonSSOTest">
-        <test-method signature="loginAsTenantInPaidNonSSO()[pri:0, instance:LoginAsSiteAdmin.loginAsTenantInPaidNonSSOTest@5f049ea1]" started-at="2024-04-20T23:09:24 IST" name="loginAsTenantInPaidNonSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsTenantInPaidNonSSO -->
-      </class> <!-- LoginAsSiteAdmin.loginAsTenantInPaidNonSSOTest -->
-      <class name="UserManagement.AddSiteAdminInPaidSSO">
-        <test-method signature="addSiteAdminPaidSSO()[pri:0, instance:UserManagement.AddSiteAdminInPaidSSO@3ba987b8]" started-at="2024-04-20T23:09:24 IST" name="addSiteAdminPaidSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addSiteAdminPaidSSO -->
-      </class> <!-- UserManagement.AddSiteAdminInPaidSSO -->
-      <class name="Regestration.FreeNonSSORegistrationTest">
-        <test-method is-config="true" signature="BS_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:22 IST" name="BS_Config" finished-at="2024-04-20T23:09:22 IST" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BS_Config -->
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:23 IST" name="BC_Config" finished-at="2024-04-20T23:09:23 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="BC_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:23 IST" name="BC_Config" finished-at="2024-04-20T23:09:23 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BC_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:23 IST" name="AF_Config" finished-at="2024-04-20T23:09:23 IST" duration-ms="45" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method signature="freeNonSSOReg()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:23 IST" name="freeNonSSOReg" finished-at="2024-04-20T23:09:23 IST" duration-ms="86" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freeNonSSOReg -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:24 IST" name="AF_Config" finished-at="2024-04-20T23:09:24 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-        <test-method is-config="true" signature="AF_Config()[pri:0, instance:Regestration.FreeNonSSORegistrationTest@75437611]" started-at="2024-04-20T23:09:26 IST" name="AF_Config" finished-at="2024-04-20T23:09:26 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AF_Config -->
-      </class> <!-- Regestration.FreeNonSSORegistrationTest -->
-      <class name="LoginAsSiteAdmin.loginAsTenantInPaidSSOTest">
-        <test-method signature="loginAsTenantInPaidSSO()[pri:0, instance:LoginAsSiteAdmin.loginAsTenantInPaidSSOTest@3f191845]" started-at="2024-04-20T23:09:24 IST" name="loginAsTenantInPaidSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsTenantInPaidSSO -->
-      </class> <!-- LoginAsSiteAdmin.loginAsTenantInPaidSSOTest -->
-      <class name="LoginAsAdmin.loginAsAdminInFreeNonSSOTest">
-        <test-method signature="loginAsAdminInFreeNonSSO()[pri:0, instance:LoginAsAdmin.loginAsAdminInFreeNonSSOTest@35dab4eb]" started-at="2024-04-20T23:09:24 IST" name="loginAsAdminInFreeNonSSO" finished-at="2024-04-20T23:09:24 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginAsAdminInFreeNonSSO -->
-      </class> <!-- LoginAsAdmin.loginAsAdminInFreeNonSSOTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- dryRunForBatch -->
+      </class> <!-- SampleRun.Branch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
