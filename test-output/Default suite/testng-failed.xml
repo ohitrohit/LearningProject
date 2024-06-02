@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SampleRun.CheckingDataBaseFetching">
+      <class name="Regestration.PaidNonSSORegistrationTest">
         <methods>
-          <include name="fetchDataFromDataBase"/>
-          <include name="AF_Config"/>
+          <include name="paidNonSSOReg"/>
           <include name="BS_Config"/>
+          <include name="AF_Config"/>
           <include name="BC_Config"/>
         </methods>
-      </class> <!-- SampleRun.CheckingDataBaseFetching -->
+      </class> <!-- Regestration.PaidNonSSORegistrationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
